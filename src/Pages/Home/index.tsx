@@ -1,10 +1,10 @@
 import React from 'react';
-import { Form } from '../../Components/form'
+import { SocialIcon } from '../../Components/socialicon'
 class HomeScreen extends React.Component {
   render() {
     return (
       <>
-        <Form />
+        <SocialIcon />
       </>
     );
   }
