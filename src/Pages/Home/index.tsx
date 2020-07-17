@@ -1,10 +1,10 @@
 import React from 'react';
-import { Slider, SliderDois, SliderTres } from '../../Components/Sliders'
+import Information from '../Information'
 class HomeScreen extends React.Component {
   render() {
     return (
       <>
-       
+       <Information />
       </>
     );
   }

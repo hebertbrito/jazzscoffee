@@ -1,0 +1,80 @@
+.containerinformation{
+    /* border-width: 1px;
+    border-color: red; */
+    width: 100%;
+    /* border-style: solid; */
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    flex: 1;
+}
+
+.divinformationone{
+    background-size: cover;
+    width: 100%;
+    background-image: url(../../Assets/one.jpg);
+    filter: blur(0.5px);
+    object-fit: cover;
+    object-position: center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    /* border: 2px solid red; */
+    align-items: center;
+    text-align: center;
+}
+
+.informationone{
+    /* border-width: 1px;
+    border-color: blue; */
+    width: 100%;
+    /* border-style: solid; */
+    animation: sliderone 3s backwards;
+    font-family: 'Alegreya SC', serif;
+}
+
+@keyframes sliderone {
+    from{
+        transform: translateX(-100%);
+        opacity: -3;
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+.informationtwo{
+    /* border-width: 1px;
+    border-color: purple; */
+    width: 100%;
+    /* border-style: solid; */
+    animation: slidertwo 3s backwards;
+    margin-left: 10%;
+    font-size: 100%;
+    font-family: 'Alegreya SC', serif;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.divinformationtwo{
+    width: 100%;
+    background-image: url(../../Assets/informationtwo.jpg);
+    filter: blur(0.5px);
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@keyframes slidertwo {
+    from{
+        transform: translateY(-101%);
+        opacity: -3;
+    }
+    to{
+        transform: translateX(0);
+    }
+}
