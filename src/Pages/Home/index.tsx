@@ -1,10 +1,10 @@
 import React from 'react';
-import Footer from '../../Pages/Footer'
+import { Menubar } from '../../Components/menubar'
 class HomeScreen extends React.Component {
   render() {
     return (
       <>
-        <Footer />
+        <Menubar />
       </>
     );
   }

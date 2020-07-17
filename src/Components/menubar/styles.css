@@ -1,0 +1,67 @@
+.containermenubar{
+    display: flex;
+    width: 100%;
+    height: 7vh; 
+    /* background-color: #4e342e; */
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    /* border: 2px red solid; */
+}
+
+.ulmenu{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px blue solid; */
+    align-content: center;
+    text-align: center;
+    /* width: 50%; */
+    align-items: center;
+}
+
+.ulmenu .limenu{
+    list-style: none;
+    color: black;
+    font-size: 80%;
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Alegreya SC', serif;
+    font-weight: bold;
+    /* border: 2px blueviolet solid; */
+    width: 8.5vw;
+    
+}
+
+.ulmenu .limenu:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: black ;
+    transform: scaleX(0);
+    transition: all 0.5s;
+    transform-origin: left;
+}
+
+.ulmenu .limenu:hover:before, .ulmenu .limenu:hover:after{
+    transform: scaleX(1);
+}
+
+.ulmenu .limenu:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    transform: scaleX(0);
+    transition: all 0.5s;
+    transform-origin: right;
+}
