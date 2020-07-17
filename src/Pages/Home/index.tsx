@@ -1,10 +1,10 @@
 import React from 'react';
-import Information from '../Information'
+import { ProductItem } from '../../Components/producitem'
 class HomeScreen extends React.Component {
   render() {
     return (
       <>
-       <Information />
+        <ProductItem />
       </>
     );
   }
