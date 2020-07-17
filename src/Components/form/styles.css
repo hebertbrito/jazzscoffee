@@ -1,0 +1,23 @@
+.container_form{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-content: center;
+    /* text-align: left; */
+    padding: 2%;
+    width: 332px;
+}
+
+.label_item{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input_item{
+    /* border: 2.3px solid #4e342e; */
+    width: 100%;
+    margin-left: 1%;
+
+}
