@@ -5,7 +5,6 @@ export function Menubar() {
     const menu = [
         'Menu','Schedules','Contact','About'
     ]
-    
     return (
         <div className="containermenubar">
         <ul className="ulmenu">

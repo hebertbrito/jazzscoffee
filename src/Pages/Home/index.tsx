@@ -1,10 +1,10 @@
 import React from 'react';
-import { Menubar } from '../../Components/menubar'
+import Header from '../Header'
 class HomeScreen extends React.Component {
   render() {
     return (
       <>
-        <Menubar />
+        
       </>
     );
   }
