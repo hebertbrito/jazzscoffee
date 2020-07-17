@@ -1,0 +1,47 @@
+.containercard{
+    /* border: 2px solid red; */
+    width: 75%;
+    margin-top: 20px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    flex: 1;
+}
+.cardum{
+    /* border: 2px solid blue; */
+    width: 30%;
+    height: 2vh;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    font-size: 90%;
+}
+.carddois{
+    /* border: 2px solid purple; */
+    width: 100%;
+    height: 15vh;
+    padding: 0;
+    margin: 0;
+    font-size: 85%;
+    text-align: left;
+    /* color: white; */
+    border: 5px#3e2723;
+    border-style: double;
+    border-radius: 5px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    background-color: #fafafa;
+    font-family: 'Alegreya SC', serif;
+    /* font-style: italic; */
+}
+
+.safra{
+    font-size: 90%;
+    font-family: 'Alegreya SC', serif;
+}
+
+.texto{
+    display: flex;
+    flex-wrap: wrap;
+    
+}

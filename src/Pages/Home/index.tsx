@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from '../Header'
+import { Card } from '../../Components/Card'
 class HomeScreen extends React.Component {
   render() {
     return (
       <>
-        
+        <Card />
       </>
     );
   }
