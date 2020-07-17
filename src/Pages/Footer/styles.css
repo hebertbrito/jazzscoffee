@@ -1,0 +1,32 @@
+.container_footer{
+    display: flex; 
+    background: #eeeeee;
+    z-index: 1;
+    width: 100vw;
+    position: absolute;
+}
+
+.container_social_media{
+    display: flex;
+    text-align: center;
+    width: 350px; 
+    /* border: 1px solid green;  */
+    height: 8vh;
+    margin-top: 5%;
+    flex-wrap: wrap;
+} 
+
+.sub1{
+    width: 50%;
+}
+
+.sub2{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    /* border: 5px solid purple;  */
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    flex: 1;
+}  

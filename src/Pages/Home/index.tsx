@@ -1,10 +1,10 @@
 import React from 'react';
-import { SocialIcon } from '../../Components/socialicon'
+import Footer from '../../Pages/Footer'
 class HomeScreen extends React.Component {
   render() {
     return (
       <>
-        <SocialIcon />
+        <Footer />
       </>
     );
   }

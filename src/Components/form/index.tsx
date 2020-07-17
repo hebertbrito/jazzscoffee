@@ -6,7 +6,7 @@ import { TextField } from '@material-ui/core';
 import { Button } from '../button'
 
 interface FormUI{
-
+    buttonName: string
 }
 
 export function Form(props: FormUI) {
@@ -25,7 +25,7 @@ export function Form(props: FormUI) {
                 margin="normal"
                 style={{}}
             />
-            <Button title="send"/>
+            <Button title={props.buttonName}/>
         </form>
     );
 }
