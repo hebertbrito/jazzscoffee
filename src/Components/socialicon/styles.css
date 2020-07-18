@@ -1,4 +1,4 @@
-.container_social_media{
+.container_social_media {
     display: flex;
     text-align: center;
     width: 350px;
@@ -6,9 +6,10 @@
     height: 8vh;
     margin-top: 5%;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.icon{
+.icon {
     width: 50px;
     height: 50px;
     background-color: #f1f1f1;
@@ -20,13 +21,13 @@
     overflow: hidden;
 }
 
-.icon i{
+.icon i {
     line-height: 50px;
     font-size: 25px;
     transition: all 0.2s;
 }
 
-.icon:hover i{
+.icon:hover i {
     transform: scale(1.3);
     color: #f1f1f1;
 }
@@ -42,23 +43,35 @@
     transform: rotate(45deg);
 }
 
-.icon:hover:before{
+.icon:hover:before {
     animation: animation_social_butons 0.7s 1 forwards;
 }
 
-@keyframes animation_social_butons{
-    0%{
+@keyframes animation_social_butons {
+    0% {
         left: -110%;
         top: 90%;
     }
-
-    50%{
+    50% {
         left: 15%;
         top: -30%;
     }
-
-    100%{
+    100% {
         left: -10%;
         top: -10%;
+    }
+}
+
+@media(max-width: 450px) {
+    .icon {
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+        box-shadow: 0 5px 15px -5px #00000070;
+    }
+
+    .icon i {
+        line-height: 17px;
+        font-size: 15px;
     }
 }
