@@ -8,7 +8,7 @@ interface TitleUI {
 }
 
 const nametitle = [
-    'C', 'o', 'f', 'f', 'e', 'e',
+    `J`, `a`,`z`,`z`,`'`,`s`, `C`,`o`,`f`,`f`,`e`,`e`
 ]
 
 export function Title(props: TitleUI) {

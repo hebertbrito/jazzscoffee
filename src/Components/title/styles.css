@@ -39,7 +39,7 @@
 .ul-title .li-title{
     list-style: none;
     color: #fafafa;
-    font-size: 310px;
+    font-size: 230px;
     letter-spacing: 10px;
     /* font-weight: normal; */
     animation: smoking 5s ease-in-out infinite;
@@ -65,7 +65,7 @@
 @media (max-width: 1024px){
     .ul-title .li-title{
         color: #fafafa;
-        font-size: 200px;
+        font-size: 140px;
         letter-spacing: 7px;
     }
 }
@@ -73,7 +73,7 @@
 @media (max-width: 768px){
     .ul-title .li-title{
         color: #fafafa;
-        font-size: 150px;
+        font-size: 110px;
         letter-spacing: 5px;
     }
 }
@@ -81,7 +81,7 @@
 @media (max-width: 451px){
     .ul-title .li-title{
         color: #fafafa;
-        font-size: 70px;
+        font-size: 55px;
         letter-spacing: 5px;
     }
 }
