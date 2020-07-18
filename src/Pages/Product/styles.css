@@ -9,38 +9,24 @@
     font-family: 'Alegreya SC', serif;
 }
 
-.prod{
-    margin-top: 2%;
-    border-top: 2px;
-    border-right: 0px;
-    border-bottom: 2px;
-    border-left: 0px;
-    border-style: solid;
-    border-color: white;
-    width: 25%;
-    height: 5vh;
-    font-size: 100%;
-    align-self: center;
-    /* text-align: center;
-    justify-content: center; */
-}
-
-.divider_product{
-    height: "1.2px";
-    width: '35%';
-    background-color: #fafafa; 
-}
-
-.news{
-    color: #fafafa; 
-    font-weight: 'bold'
-}
-
 .produc_subs{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-content: flex-end; */
+}
+
+.cont_title{
+    /* border: 5px blue solid; */
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
+    padding-top: 1%;
+}
+
+.title_prod{
+    font-size: 100%;
+    color: #fafafa;    
 }
 

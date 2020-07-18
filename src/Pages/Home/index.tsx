@@ -1,7 +1,8 @@
 import React from 'react';
-import Product from '../Header'
+
 import Header from '../Header'
 import Information from '../Information'
+import Product from '../Product'
 
 class HomeScreen extends React.Component {
   render() {
@@ -9,6 +10,7 @@ class HomeScreen extends React.Component {
       <>
         <Header />
         <Information />
+        <Product />
       </>
     );
   }
