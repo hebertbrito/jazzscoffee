@@ -14,11 +14,10 @@ class Information extends React.Component {
                         <SliderDois />
                         <SliderTres />
                     </div>
+
                 </div>
                 <div className="divinformationtwo">
                     <div className="informationtwo">
-                        <h2 style={{
-                        }}>Today's news</h2>
                         <Card />
                     </div>
                 </div>

@@ -1,7 +1,7 @@
-.containermenubar{
+.containermenubar {
     display: flex;
     width: 100%;
-    height: 7vh; 
+    height: 7vh;
     /* background-color: #4e342e; */
     justify-content: center;
     align-content: center;
@@ -9,7 +9,7 @@
     /* border: 2px red solid; */
 }
 
-.ulmenu{
+.ulmenu {
     padding: 0;
     margin: 0;
     display: flex;
@@ -21,10 +21,10 @@
     align-items: center;
 }
 
-.ulmenu .limenu{
+.ulmenu .limenu {
     list-style: none;
     color: black;
-    font-size: 80%;
+    font-size: 25px;
     display: block;
     padding: 10px 15px;
     position: relative;
@@ -33,7 +33,6 @@
     font-weight: bold;
     /* border: 2px blueviolet solid; */
     width: 8.5vw;
-    
 }
 
 .ulmenu .limenu:before {
@@ -43,13 +42,13 @@
     left: 0;
     width: 100%;
     height: 4px;
-    background-color: black ;
+    background-color: black;
     transform: scaleX(0);
     transition: all 0.5s;
     transform-origin: left;
 }
 
-.ulmenu .limenu:hover:before, .ulmenu .limenu:hover:after{
+.ulmenu .limenu:hover:before, .ulmenu .limenu:hover:after {
     transform: scaleX(1);
 }
 
@@ -64,4 +63,25 @@
     transform: scaleX(0);
     transition: all 0.5s;
     transform-origin: right;
+}
+
+@media(max-width: 1024px) {
+    .ulmenu .limenu {
+        font-size: 20px;
+        /* color: red; */
+    }
+}
+
+@media(max-width: 768px) {
+    .ulmenu .limenu {
+        font-size: 15px;
+        /* color: red; */
+    }
+}
+
+@media(max-width: 451px) {
+    .ulmenu .limenu {
+        font-size: 9px;
+        /* color: red; */
+    }
 }

@@ -1,10 +1,14 @@
 import React from 'react';
-import Product from '../Product'
+import Product from '../Header'
+import Header from '../Header'
+import Information from '../Information'
+
 class HomeScreen extends React.Component {
   render() {
     return (
       <>
-        <Product />
+        <Header />
+        <Information />
       </>
     );
   }

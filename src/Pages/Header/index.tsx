@@ -1,6 +1,6 @@
 import React from 'react';
 import {Menubar} from '../../Components/menubar'
-
+import { Title } from '../../Components/title'
 import './styles.css';
 
 class Header extends React.Component {
@@ -15,11 +15,7 @@ class Header extends React.Component {
         <img src={require('../../Assets/bgheader.jpg')} className="img" />
         <Menubar />
         <div className="title">
-          <ul className="ulheader">
-            {nametitle.map(x => {
-              return <li key={x} className="liheader">{x}</li>
-            })}
-          </ul>
+          <Title />
         </div>
       </div>
     );
