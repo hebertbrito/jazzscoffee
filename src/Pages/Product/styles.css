@@ -26,7 +26,29 @@
 }
 
 .title_prod{
-    font-size: 100%;
+    font-size: 17px;
     color: #fafafa;    
 }
 
+.divider{
+    background-color: #fafafa;
+    height: 3px;
+    width: 15%;
+    align-self: center;
+}
+
+@media(max-width: 768px){
+    .title_prod{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 450px){
+    .title_prod{
+        font-size: 12px;
+    }
+
+    .divider{
+        width: 25%;
+    }
+}

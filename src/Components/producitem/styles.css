@@ -1,4 +1,4 @@
-.container_product_item{
+.container_product_item {
     display: flex;
     /* border: 2px solid yellow; */
     width: 300px;
@@ -6,7 +6,7 @@
     align-self: center;
 }
 
-.product_info{
+.product_info {
     /* border: 2px solid red; */
     width: 100%;
     text-align: center;
@@ -16,19 +16,24 @@
     animation: inf_animation 4s ease backwards;
 }
 
-.description_item{
-    font-size: 100%;
+.ind_product {
+    font-size: 15px;
+}
+
+.description_item {
+    font-size: 12px;
     font-family: 'Alegreya SC', serif;
     color: #fafafa;
 }
 
-.products{
+.products {
     width: 210px;
-    display: flex;     
+    display: flex;
     margin: 0px;
     padding: 0px;
 }
-.product_item{
+
+.product_item {
     width: 170px;
     height: 200px;
     border: 3px #ffc107;
@@ -42,7 +47,7 @@
     animation: cardanimation 2s ease backwards;
 }
 
-.imgproduct{
+.imgproduct {
     width: 100%;
     height: 100%;
     transition: transform 1s;
@@ -53,24 +58,24 @@
     transform: scale(1.2) rotate(9deg);
 }
 
-.nameproduct{
+.nameproduct {
     align-self: center;
     z-index: 1;
 }
 
-.names{
+.names {
     position: absolute;
     margin-top: 18%;
 }
 
 @keyframes cardanimation {
-    from{ 
+    from {
         transform: rotate(0);
         opacity: 0;
         width: 0px;
         height: 0px;
     }
-    to{
+    to {
         transform: rotate(360deg);
         width: 170px;
         height: 200px;
@@ -79,11 +84,63 @@
 }
 
 @keyframes inf_animation {
-    from{
+    from {
         opacity: 0;
     }
-
-    to{
+    to {
         opacity: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+    .ind_product {
+        font-size: 14px;
+    }
+    .description_item {
+        font-size: 11px;
+    }
+    .product_item {
+        width: 110px;
+        height: 140px;
+    }
+    .product_item {
+        animation: cardanimation2 2s ease backwards;
+    }
+    .product_info {
+        padding-top: 0;
+    }
+}
+
+@keyframes cardanimation2 {
+    from {
+        transform: rotate(0);
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+    }
+    to {
+        transform: rotate(360deg);
+        width: 110px;
+        height: 140px;
+        /* filter: blur(30px); */
+    }
+}
+
+@media(max-width: 450px) {
+    .ind_product {
+        font-size: 14px;
+    }
+    .description_item {
+        font-size: 11px;
+    }
+    .product_item {
+        width: 110px;
+        height: 140px;
+    }
+    .product_item {
+        animation: cardanimation2 2s ease backwards;
+    }
+    .product_info {
+        padding-top: 0;
     }
 }

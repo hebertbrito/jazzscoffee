@@ -9,9 +9,12 @@ class Products extends React.Component {
         return (
             <div className="containerproduct">
                 <div className="cont_title">
-                    <Divider style={{ backgroundColor: '#fafafa', height: '3px', width: '15%', alignSelf: 'center' }} />
+                    <div className="divider"></div>
+                    {/* <Divider style={{ backgroundColor: '#fafafa', height: '3px', width: '15%', alignSelf: 'center' }} /> */}
                     <p className="title_prod">News products</p>
-                    <Divider style={{ backgroundColor: '#fafafa', height: '2px', width: '15%', alignSelf: 'center' }} />
+                    {/* <Divider style={{ backgroundColor: '#fafafa', height: '2px', width: '15%', alignSelf: 'center' }} /> */}
+                    <div className="divider"></div>
+
                 </div>
                 <div className="produc_subs">
                     <ProductItem />

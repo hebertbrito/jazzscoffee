@@ -14,8 +14,8 @@ export function ProductItem() {
                 </div>
             </div>
             <div className="product_info">
-                <p className="description_item">Produto: Cappucino</p>
-                <p className="description_item">Tipo: Alcolico</p>
+                <p className="description_item"><p className="ind_product">Produto: </p>Cappucino</p>
+                <p className="description_item"><p className="ind_product">Tipo: </p>Alcolico</p>
             </div>
         </div>
     );
