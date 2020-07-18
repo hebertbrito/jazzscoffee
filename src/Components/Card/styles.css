@@ -49,4 +49,16 @@
         font-size: 13px;
     }
 }
+@media(max-width: 450px){
+    .title_info{
+        font-size: 15px;
+    }
+    .carddois{
+        font-size: 12px;
+    }
+
+    .safra{
+        font-size: 13px;
+    }
+}
 

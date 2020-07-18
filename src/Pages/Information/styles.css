@@ -74,3 +74,13 @@
         font-size: 13px;
     }
 }
+@media(max-width: 450px){
+
+    .containerinformation{
+        flex-wrap: wrap-reverse;
+    }
+    .highlight{
+        font-size: 15px;
+    }
+    
+}
