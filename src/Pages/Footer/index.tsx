@@ -19,7 +19,7 @@ class Footer extends React.Component {
                     <div className="div_footer">
                         <div className="sub1">
                             <div className="dev_by">
-                                <p>Development by <a href="https://www.linkedin.com/in/hebert-oliveira-01/" className="hebert">Heber Felipe</a></p>
+                                <p>Development by <a href="https://www.linkedin.com/in/hebert-oliveira-01/" className="hebert">Hebert Felipe</a></p>
                             </div>
                             <div className="terms">
                                 {lstTerms.length > 0 && (
